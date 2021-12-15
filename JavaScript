@@ -1,0 +1,14 @@
+# semih
+JavaScript Algorithms and Data Structures
+
+1)Shopping list 
+onst myList = [["sneak", 13], ["krsl", 3], ["corc", 4], ["coa", 5],
+["sem", 44]];
+
+2)Write Reusable JavaScript with Functions
+
+console.log("Hello World");
+
+
+
+
