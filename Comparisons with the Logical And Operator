@@ -1,0 +1,14 @@
+function testLogicalAnd(val) {
+  // O
+
+  if (val <= 50 && val >= 25) {
+    
+      return "Yes";
+    }
+  
+
+  // 
+  return "No";
+}
+
+testLogicalAnd(10);
