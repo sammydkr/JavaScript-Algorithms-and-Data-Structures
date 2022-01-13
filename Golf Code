@@ -1,0 +1,68 @@
+Strokes	Return
+1	"Hole-in-one!"
+<= par - 2	"Eagle"
+par - 1	"Birdie"
+par	"Par"
+par + 1	"Bogey"
+par + 2	"Double Bogey"
+>= par + 3	"Go Home!"
+
+/////////
+
+Solution 1 
+
+function golfScore(par, strokes) {
+if (strokes == 1) {
+    return names[0];
+  } else if (strokes <= par - 2) {
+    return names[1];
+  } else if (strokes === par - 1) {
+    return names[2];
+  } else if (strokes === par) {
+    return names[3];
+  } else if (strokes === par + 1) {
+    return names[4];
+  } else if (strokes === par + 2) {
+    return names[5];
+  } else {
+    return names[6];
+  }
+  
+  Solution 2 
+  
+  function golfScore(par, strokes) {
+  return strokes === 1
+    ? names[0]
+    : strokes <= par - 2
+    ? names[1]
+    : strokes === par - 1
+    ? names[2]
+    : strokes === par
+    ? names[3]
+    : strokes === par + 1
+    ? names[4]
+    : strokes === par + 2
+    ? names[5]
+    : names[6];
+}
+
+function golfScore(par, strokes) {
+ 
+ if (strokes < 2) {
+return "Hole-in-one!";
+} else if (par == par && strokes <= par-2) {
+return "Eagle";
+} else if (par == par && strokes <= par-1) {
+return "Birdie";
+} else if (par == par && strokes === par) {
+return "Par";
+} else if (par == par && strokes === par+1) {
+return "Bogey";
+} else if (par == par && strokes === par+2) {
+return "Double Bogey";
+} else if (par == par && strokes >= par+3) {
+return "Go Home!";
+} 
+  return "Change Me";
+}
+    
