@@ -1,0 +1,14 @@
+function myFun() {
+  console.log("Hello");
+  return "World";
+  console.log("byebye")
+}
+myFun();
+
+
+
+function abTest(a, b) {
+  if (a < 0 || b < 0) {
+    return undefined;
+
+}
