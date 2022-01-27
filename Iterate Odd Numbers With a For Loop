@@ -1,0 +1,10 @@
+const ourArray = [];
+
+for (let i = 0; i < 10; i += 2) {
+  ourArray.push(i);
+}
+
+if my array [1,3,5,7,9]
+for (var count = 1; count <= 9; count +=2) {
+myArray.push(count);
+}
