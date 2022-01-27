@@ -1,0 +1,34 @@
+const ourArray = [];
+let i = 0;
+
+do {
+  ourArray.push(i);
+  i++;
+} while (i < 5);
+
+Here is a regular while loop that will run the code in the loop as long as i < 5:
+
+const ourArray = []; 
+let i = 5;
+
+while (i < 5) {
+  ourArray.push(i);
+  i++;
+}
+
+onst myArray = [];
+let i = 10;
+
+do {
+  myArray.push(i);
+  i++;
+} while (i <= 10);
+
+
+
+while (i < 5) {
+  myArray.push(i);
+  i++;
+}
+Change the while loop in the code to a do...while loop so the loop will push only the number 10 to myArray, and i will be equal to 11 when your code has finished running.
+
